@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title></title>
+        <script src="https://kit.fontawesome.com/69117e446e.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+
+        <!-- CUSTOM CSS-->
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        
+        <div class="onglets-side">
+            <a href="#Accueil" class="active"></a>
+            <a href="#Partie1"></a>
+            <a href="#Partie2"></a>
+            <a href="#Partie3"></a>
+        </div>
+
+        <div class="btn">
+            <img src="svg/arrow-up-solid.svg" class="icone" />
+        </div>
+
+        <header>
+
+            <nav class="navbar">
+                <a href="#Partie1" class="logo" >Le Xav</a>
+                <div class="nav-links">
+                    <ul>
+                        <li class="active"><a href="#Accueil">Accueil</a></li>
+                        <li><a href="#Partie1">Partie 1</a></li>
+                        <li><a href="#Partie2">Partie 2</a></li>
+                        <li><a href="#Partie3">Partie 3</a></li>
+                    </ul>
+                </div>
+                <img src="img/menu-btn.png" alt="menu" class="menu">
+            </nav>
+        </header>
+
+        <div class="sec1" id="Accueil">
+            <div class="container">
+                <h1>Xavier Niel<br />La Naissance d'un Empire</h1>
+                <a href="#Partie1">
+                    <button>
+                        En savoir plus
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </a>
+                <img src="img/3.png" class="image" alt="la boulette... et je parle pas de la chanson de diam's XPTDRRRRRRRRRRRRRRRRRRRRRRRR on se fend la poire ou quoi"/>
+            </div>
+        </div>
+
+        <div class="sec2" id="Partie1">
+            <div class="container">
+                <div class="title">
+                    <h1>Titre Partie 1</h1>
+                </div>
+                <div class="left">
+                    <div class="titre">
+                        <div class="marque"></div>
+                        <h2>Titre Sous Partie 1</h2>
+                    </div>
+                    <div class="separateur"></div>
+                    <p1>Excitavit hic ardor milites per municipia plurima, quae isdem conterminant, dispositos et castella, sed quisque serpentes latius pro viribus repellere moliens, nunc globis confertos, aliquotiens et dispersos multitudine superabatur ingenti, quae nata et educata inter editos recurvosque ambitus montium eos ut loca plana persultat et mollia, missilibus obvios eminus lacessens et ululatu truci perterrens.
+
+                        Saepissime igitur mihi de amicitia cogitanti maxime illud considerandum videri solet, utrum propter imbecillitatem atque inopiam desiderata sit amicitia, ut dandis recipiendisque meritis quod quisque minus per se ipse posset, id acciperet ab alio vicissimque redderet, an esset hoc quidem proprium amicitiae, sed antiquior et pulchrior et magis a natura ipsa profecta alia causa. Amor enim, ex quo amicitia nominata est, princeps est ad benevolentiam coniungendam. Nam utilitates quidem etiam ab iis percipiuntur saepe qui simulatione amicitiae coluntur et observantur temporis causa, in amicitia autem nihil fictum est, nihil simulatum et, quidquid est, id est verum et voluntarium.
+                        
+                        Sed laeditur hic coetuum magnificus splendor levitate paucorum incondita, ubi nati sunt non reputantium, sed tamquam indulta licentia vitiis ad errores lapsorum ac lasciviam. ut enim Simonides lyricus docet, beate perfecta ratione vieturo ante alia patriam esse convenit gloriosam.   
+                    </p1>
+                </div>
+                <div class="right">
+                    <div class="titre">
+                        <div class="marque"></div>
+                        <h2>Titre Sous Partie 2</h2>
+                    </div>
+                    <div class="separateur"></div>
+                    <p2>22Haec subinde Constantius audiens et quaedam referente Thalassio doctus, quem eum odisse iam conpererat lege communi, scribens ad Caesarem blandius adiumenta paulatim illi subtraxit, sollicitari se simulans ne, uti est militare otium fere tumultuosum, in eius perniciem conspiraret, solisque scholis iussit esse contentum palatinis et protectorum cum Scutariis et Gentilibus, et mandabat Domitiano, ex comite largitionum, praefecto ut cum in Syriam venerit, Gallum, quem crebro acciverat, ad Italiam properare blande hortaretur et verecunde.
+
+                        Metuentes igitur idem latrones Lycaoniam magna parte campestrem cum se inpares nostris fore congressione stataria documentis frequentibus scirent, tramitibus deviis petivere Pamphyliam diu quidem intactam sed timore populationum et caedium, milite per omnia diffuso propinqua, magnis undique praesidiis conmunitam.
+                        
+                        Fuerit toto in consulatu sine provincia, cui fuerit, antequam designatus est, decreta provincia. Sortietur an non? Nam et non sortiri absurdum est, et, quod sortitus sis, non habere. Proficiscetur paludatus? Quo? Quo pervenire ante certam diem non licebit. ianuario, Februario, provinciam non habebit; Kalendis ei denique Martiis nascetur repente provincia.
+                    </p2>
+                </div>
+            </div>
+        </div>
+
+        <div class="sec3">
+            <h1>
+                « N'ayez pas peur de viser haut. »
+            </h1>
+            <h2>
+                Xavier Niel
+            </h2>
+        </div>
+
+        <div class="sec4" id="Partie2">
+            <div class="container">
+                <div class="title">
+                    <h1>Titre Partie 2</h1>
+                </div>
+                <div class="left">
+                    <div class="titre">
+                        <div class="marque"></div>
+                        <h2>Titre Sous Partie 1</h2>
+                    </div>
+                    <div class="separateur"></div>
+                    <p1>Excitavit hic ardor milites per municipia plurima, quae isdem conterminant, dispositos et castella, sed quisque serpentes latius pro viribus repellere moliens, nunc globis confertos, aliquotiens et dispersos multitudine superabatur ingenti, quae nata et educata inter editos recurvosque ambitus montium eos ut loca plana persultat et mollia, missilibus obvios eminus lacessens et ululatu truci perterrens.
+
+                        Saepissime igitur mihi de amicitia cogitanti maxime illud considerandum videri solet, utrum propter imbecillitatem atque inopiam desiderata sit amicitia, ut dandis recipiendisque meritis quod quisque minus per se ipse posset, id acciperet ab alio vicissimque redderet, an esset hoc quidem proprium amicitiae, sed antiquior et pulchrior et magis a natura ipsa profecta alia causa. Amor enim, ex quo amicitia nominata est, princeps est ad benevolentiam coniungendam. Nam utilitates quidem etiam ab iis percipiuntur saepe qui simulatione amicitiae coluntur et observantur temporis causa, in amicitia autem nihil fictum est, nihil simulatum et, quidquid est, id est verum et voluntarium.
+                        
+                        Sed laeditur hic coetuum magnificus splendor levitate paucorum incondita, ubi nati sunt non reputantium, sed tamquam indulta licentia vitiis ad errores lapsorum ac lasciviam. ut enim Simonides lyricus docet, beate perfecta ratione vieturo ante alia patriam esse convenit gloriosam.   
+                    </p1>
+                </div>
+                <div class="right">
+                    <div class="titre">
+                        <div class="marque"></div>
+                        <h2>Titre Sous Partie 2</h2>
+                    </div>
+                    <div class="separateur"></div>
+                    <p2>22Haec subinde Constantius audiens et quaedam referente Thalassio doctus, quem eum odisse iam conpererat lege communi, scribens ad Caesarem blandius adiumenta paulatim illi subtraxit, sollicitari se simulans ne, uti est militare otium fere tumultuosum, in eius perniciem conspiraret, solisque scholis iussit esse contentum palatinis et protectorum cum Scutariis et Gentilibus, et mandabat Domitiano, ex comite largitionum, praefecto ut cum in Syriam venerit, Gallum, quem crebro acciverat, ad Italiam properare blande hortaretur et verecunde.
+
+                        Metuentes igitur idem latrones Lycaoniam magna parte campestrem cum se inpares nostris fore congressione stataria documentis frequentibus scirent, tramitibus deviis petivere Pamphyliam diu quidem intactam sed timore populationum et caedium, milite per omnia diffuso propinqua, magnis undique praesidiis conmunitam.
+                        
+                        Fuerit toto in consulatu sine provincia, cui fuerit, antequam designatus est, decreta provincia. Sortietur an non? Nam et non sortiri absurdum est, et, quod sortitus sis, non habere. Proficiscetur paludatus? Quo? Quo pervenire ante certam diem non licebit. ianuario, Februario, provinciam non habebit; Kalendis ei denique Martiis nascetur repente provincia.
+                    </p2>
+                </div>
+            </div>
+        </div>
+
+        <div class="sec5">
+            <h1>
+                « Osez la disruption »
+            </h1>
+            <h2>
+                Xavier Niel
+            </h2>
+        </div>
+
+        <div class="sec6" id="Partie3">
+            <div class="container">
+                <div class="title">
+                    <h1>Titre Partie 3</h1>
+                </div>
+                <div class="left">
+                    <div class="titre">
+                        <div class="marque"></div>
+                        <h2>Titre Sous Partie 1</h2>
+                    </div>
+                    <div class="separateur"></div>
+                    <p1>Excitavit hic ardor milites per municipia plurima, quae isdem conterminant, dispositos et castella, sed quisque serpentes latius pro viribus repellere moliens, nunc globis confertos, aliquotiens et dispersos multitudine superabatur ingenti, quae nata et educata inter editos recurvosque ambitus montium eos ut loca plana persultat et mollia, missilibus obvios eminus lacessens et ululatu truci perterrens.
+
+                        Saepissime igitur mihi de amicitia cogitanti maxime illud considerandum videri solet, utrum propter imbecillitatem atque inopiam desiderata sit amicitia, ut dandis recipiendisque meritis quod quisque minus per se ipse posset, id acciperet ab alio vicissimque redderet, an esset hoc quidem proprium amicitiae, sed antiquior et pulchrior et magis a natura ipsa profecta alia causa. Amor enim, ex quo amicitia nominata est, princeps est ad benevolentiam coniungendam. Nam utilitates quidem etiam ab iis percipiuntur saepe qui simulatione amicitiae coluntur et observantur temporis causa, in amicitia autem nihil fictum est, nihil simulatum et, quidquid est, id est verum et voluntarium.
+                        
+                        Sed laeditur hic coetuum magnificus splendor levitate paucorum incondita, ubi nati sunt non reputantium, sed tamquam indulta licentia vitiis ad errores lapsorum ac lasciviam. ut enim Simonides lyricus docet, beate perfecta ratione vieturo ante alia patriam esse convenit gloriosam.   
+                    </p1>
+                </div>
+                <div class="right">
+                    <div class="titre">
+                        <div class="marque"></div>
+                        <h2>Titre Sous Partie 2</h2>
+                    </div>
+                    <div class="separateur"></div>
+                    <p2>22Haec subinde Constantius audiens et quaedam referente Thalassio doctus, quem eum odisse iam conpererat lege communi, scribens ad Caesarem blandius adiumenta paulatim illi subtraxit, sollicitari se simulans ne, uti est militare otium fere tumultuosum, in eius perniciem conspiraret, solisque scholis iussit esse contentum palatinis et protectorum cum Scutariis et Gentilibus, et mandabat Domitiano, ex comite largitionum, praefecto ut cum in Syriam venerit, Gallum, quem crebro acciverat, ad Italiam properare blande hortaretur et verecunde.
+
+                        Metuentes igitur idem latrones Lycaoniam magna parte campestrem cum se inpares nostris fore congressione stataria documentis frequentibus scirent, tramitibus deviis petivere Pamphyliam diu quidem intactam sed timore populationum et caedium, milite per omnia diffuso propinqua, magnis undique praesidiis conmunitam.
+                        
+                        Fuerit toto in consulatu sine provincia, cui fuerit, antequam designatus est, decreta provincia. Sortietur an non? Nam et non sortiri absurdum est, et, quod sortitus sis, non habere. Proficiscetur paludatus? Quo? Quo pervenire ante certam diem non licebit. ianuario, Februario, provinciam non habebit; Kalendis ei denique Martiis nascetur repente provincia.
+                    </p2>
+                </div>
+            </div>
+        </div>
+
+        <div class="scrollbar"></div>
+        <div class="clickScrollbar"></div>
+
+        <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
